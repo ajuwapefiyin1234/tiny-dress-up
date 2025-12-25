@@ -1,0 +1,10 @@
+body{font-family:system-ui, sans-serif;background:#fff7f9;text-align:center;margin:0}
+h1{margin:.5em 0;font-size:2em;color:#ff66a2}
+#stage{position:relative;width:400px;height:400px;margin:0 auto;background:#ffeaf4;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.1)}
+#base{width:100%;position:absolute;top:0;left:0;z-index:0}
+.sticker{position:absolute;cursor:move;z-index:10}
+#tray{display:flex;justify-content:center;gap:12px;margin:20px auto}
+.thumb{width:60px;height:60px;border:2px solid #ffb6d5;border-radius:8px;cursor:pointer;transition:.2s}
+.thumb:hover{transform:scale(1.1)}
+button{margin:6px;padding:8px 16px;border:none;border-radius:20px;background:#ff66a2;color:#fff;font-weight:bold;cursor:pointer}
+button:hover{background:#e62e8a}
